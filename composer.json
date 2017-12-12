@@ -1,5 +1,5 @@
 {
-    "name": "partycravings/php-process-manager-bundle",
+    "name": "m6web/php-process-manager-bundle",
     "type" : "symfony-bundle",
     "description": "Php Process Manger bundle",
     "keywords": ["Process manager", "performance", "ReactPHP", "bundle"],
@@ -13,6 +13,7 @@
     ],
     "require": {
         "php": "^5.5|^7.0",
+        "ext-event": "*",
         "symfony/symfony"                : "^2.7|^3.0",
         "react/react"                    : "^0.4"
         
