@@ -13,6 +13,7 @@
     ],
     "require": {
         "php": "^5.5|^7.0",
+        "ext-pcntl":"*",
         "ext-event": "*",
         "symfony/symfony"                : "^2.7|^3.0",
         "react/react"                    : "^0.4"
