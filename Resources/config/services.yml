@@ -1,5 +1,5 @@
 parameters:
-    m6_web_php_pm.react.event_loop.class : React\EventLoop\StreamSelectLoop
+    m6_web_php_pm.react.event_loop.class : React\EventLoop\ExtEventLoop
     m6_web_php_pm.react.event_loop_factory.class : React\EventLoop\Factory
     m6_web_php_pm.react.socket_server.class : React\Socket\Server
     m6_web_php_pm.react.http_server.class : React\Http\Server
